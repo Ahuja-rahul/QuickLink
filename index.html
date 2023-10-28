@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QuickLink - URL Shortener</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QuickLink - URL Shortener</h1>
+        <input type="url" id="originalURL" placeholder="Enter URL to shorten">
+        <button class="css-button-arrow--black" onclick="shortenURL()">Shorten</button>
+        <p id="shortenedURL"></p>
+        <div id="error-message"></div>
+        <h2>URL History</h2>
+        <ul id="history-list"></ul>
+        <div id="bitly-logo">
+            <p>Powered by: </p>
+            <img src="asset/bitly-icon.png" alt="Powered by Bitly">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
